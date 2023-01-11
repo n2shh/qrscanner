@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#1F1D2E] font-primary text-white duration-300;
+    overflow-x: hidden;
+  }
+}
